@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'MJRefresh', '3.1.15.6'
+   s.dependency 'MJRefresh'
    s.dependency 'FMDB', '2.7.5'
    s.dependency 'ReactiveCocoa','2.3'
    s.dependency 'Masonry', '1.1.0'
