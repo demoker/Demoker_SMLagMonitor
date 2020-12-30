@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0904826A8B0E1F1A3FED6955 /* Pods_Demoker_SMLagMontitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demoker_SMLagMontitor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		313D78F023A4A092A6920403 /* Pods-Demoker_SMLagMontitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demoker_SMLagMontitor_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Demoker_SMLagMontitor_Tests/Pods-Demoker_SMLagMontitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		52CC8FA943A9CBAC2CB5F060 /* Demoker_SMLagMontitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Demoker_SMLagMontitor.podspec; path = ../Demoker_SMLagMontitor.podspec; sourceTree = "<group>"; };
+		52CC8FA943A9CBAC2CB5F060 /* Demoker_SMLagMontitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Demoker_SMLagMontitor.podspec; path = ../Demoker_SMLagMontitor.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Demoker_SMLagMontitor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demoker_SMLagMontitor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,9 +59,9 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		672029ADAD8E355D1B510B6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		672029ADAD8E355D1B510B6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		797A1C99CFE29BE334205F61 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		797A1C99CFE29BE334205F61 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE7945EDCD1BCB30C2EF019A /* Pods-Demoker_SMLagMontitor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demoker_SMLagMontitor_Tests.release.xcconfig"; path = "Target Support Files/Pods-Demoker_SMLagMontitor_Tests/Pods-Demoker_SMLagMontitor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C02E487A3127B1747D7B5C1D /* Pods_Demoker_SMLagMontitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demoker_SMLagMontitor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +193,6 @@
 				313D78F023A4A092A6920403 /* Pods-Demoker_SMLagMontitor_Tests.debug.xcconfig */,
 				BE7945EDCD1BCB30C2EF019A /* Pods-Demoker_SMLagMontitor_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = demoker;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = S24KMPBJ78;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,11 +327,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Demoker_SMLagMontitor_Example/Pods-Demoker_SMLagMontitor_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Demoker_SMLagMontitor/Demoker_SMLagMontitor.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Demoker_SMLagMontitor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,6 +503,7 @@
 			baseConfigurationReference = FDD6C346AA6FAE5ED0EB45B7 /* Pods-Demoker_SMLagMontitor_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S24KMPBJ78;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Demoker_SMLagMontitor/Demoker_SMLagMontitor-Prefix.pch";
 				INFOPLIST_FILE = "Demoker_SMLagMontitor/Demoker_SMLagMontitor-Info.plist";
@@ -510,6 +520,7 @@
 			baseConfigurationReference = FE575AEB36052D74D49DC8ED /* Pods-Demoker_SMLagMontitor_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S24KMPBJ78;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Demoker_SMLagMontitor/Demoker_SMLagMontitor-Prefix.pch";
 				INFOPLIST_FILE = "Demoker_SMLagMontitor/Demoker_SMLagMontitor-Info.plist";

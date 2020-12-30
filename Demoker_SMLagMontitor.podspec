@@ -21,22 +21,24 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/demoker/Demoker_SMLagMontitor'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/demoker/Demoker_SMLagMonitor'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'demoker' => 'mdk132@qq.com' }
-  s.source           = { :git => 'https://github.com/demoker/Demoker_SMLagMontitor.git', :tag => s.version.to_s }
+  s.author           = { 'mdk132@qq.com' => 'mdk132@qq.com' }
+  s.source           = { :git => 'https://github.com/demoker/Demoker_SMLagMonitor.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Demoker_SMLagMontitor/Classes/**/*'
+  s.source_files = 'SMLagMonitor/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'Demoker_SMLagMontitor' => ['Demoker_SMLagMontitor/Assets/*.png']
+  #   'SMLagMonitor' => ['SMLagMonitor/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'MJRefresh', '3.1.15.6'
+   s.dependency 'FMDB', '2.7.5'
+   s.dependency 'ReactiveCocoa','2.3'
+   s.dependency 'Masonry', '1.1.0'
 end

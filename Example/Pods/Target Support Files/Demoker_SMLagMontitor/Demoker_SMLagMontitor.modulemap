@@ -1,0 +1,6 @@
+framework module Demoker_SMLagMontitor {
+  umbrella header "Demoker_SMLagMontitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_Demoker_SMLagMontitor_Example {
+  umbrella header "Pods-Demoker_SMLagMontitor_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
