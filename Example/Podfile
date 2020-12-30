@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'Demoker_SMLagMontitor_Example' do
+  pod 'Demoker_SMLagMontitor', :path => '../'
+
+  target 'Demoker_SMLagMontitor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
