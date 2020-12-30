@@ -18,10 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SMLagMonitor/Classes/**/*",
+  "source_files": "Demoker_SMLagMontitor/Classes/**/*",
   "dependencies": {
     "MJRefresh": [
-      "3.1.15.6"
+
     ],
     "FMDB": [
       "2.7.5"

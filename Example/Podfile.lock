@@ -2,13 +2,13 @@ PODS:
   - Demoker_SMLagMontitor (0.1.0):
     - FMDB (= 2.7.5)
     - Masonry (= 1.1.0)
-    - MJRefresh (= 3.1.15.6)
+    - MJRefresh
     - ReactiveCocoa (= 2.3)
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
   - Masonry (1.1.0)
-  - MJRefresh (3.1.15.6)
+  - MJRefresh (3.5.0)
   - ReactiveCocoa (2.3):
     - ReactiveCocoa/UI (= 2.3)
   - ReactiveCocoa/Core (2.3):
@@ -32,10 +32,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Demoker_SMLagMontitor: a2d898e25797ae7cdf20e6d85172a95168325173
+  Demoker_SMLagMontitor: 0f3f8760d0231458390bc9f54aac264c3da98688
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   ReactiveCocoa: 81ee2fb7df2dfc6bd52b5d70473662195e20ca7d
 
 PODFILE CHECKSUM: 3da9764611f70c72c92e474c6e710fc95355fc6a
